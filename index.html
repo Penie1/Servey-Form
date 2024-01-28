@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <html>
+
+<head>
+   <title> survey-form</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+ <body>
+  <main class="content">
+    
+   <header class="header"><h1 id="title"> Survey for Computer Science Students <h1>
+   <p > <em> Thank you for taking the time to help us improve the courses</em></p>
+      </header>
+    <form id="survey-form" >
+   
+      <section class="name_form"> <label id="name-label" for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name"
+     required>
+</section>
+<section class="email_form">
+       <label id="email-label" for="name">Email</label>
+     <input type="email"  name="email" id="email" placeholder="Enter your Email"
+     required>
+</section>
+
+<section class="age_form">
+       <label  id="number-label" for="number">Which year student are you?</label>
+     <input type="number" id="number" name="Age" placeholder="Year"
+     min="0"
+     max="5"
+    class="form-control"
+     >
+
+</section>
+<section class="dropdown_question">
+     <label>Do you think you are ready to take the exam?</label>
+<select id=dropdown>
+<option value="Yes">Yes</option>
+<option value="No">No</option>
+</select></section>
+<section class="radio_input">
+    <label>Do you have any information about how the past exam was from someone who took it?</label>
+      <div class="wrapper"> <input type="radio"    value="definitely"
+     name="radio"></input> <label>Definitely</label>
+</div> <div class="wrapper">
+ <input type="radio"   value="No"
+     name="radio"></input> <label>No</label>
+    </div> </section>  
+<section class="checkbox_input">
+  <label>Which programming language do you want to review before the exam in order to achieve better results? </label>
+<div class="wrapper">
+ <input type="checkbox"    value="Python"
+     name="checkbox"></input> <label>Python</label>
+</div><div class="wrapper">
+ <input type="checkbox"    value="C++"
+     name="checkbox"></input> <label>C++</label>
+</div> <div class="wrapper">
+   <input type="checkbox"    value="Java"
+     name="checkbox"></input> <label>Java</label>  
+</div></section>
+<section class="suggestion">
+<label> Any comments or Suggestions? </label>
+<div class="textarea_container">
+<textarea placeholder="Enter your comment here..."
+name="comment"></textarea></div>
+</section>
+
+<button type="submit" id="submit">
+  Submit</button>
+
+   </form>
+   
+   </body> 
+
+</main>
+</html>
+    <script src="app.js" async defer></script>
+  </body>
+</html>
